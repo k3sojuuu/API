@@ -1,0 +1,74 @@
+*{
+    font-family: "Tahoma";
+    box-sizing: border-box;
+}
+footer{
+    height: 50px;
+    text-align: center;
+}
+header{
+    padding: 15px;
+}
+header .logo img{
+    float: left;
+    width: 30%;
+    width: 100px;
+    background-color: red;
+    border-radius: 20px;
+}
+header .search-box{
+    padding: 25px 0px;
+    float: left;
+    width: 70%;
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.form-group{
+    margin: 10px 5px;
+}
+.form-group label:first-child{
+    width: 15%;
+    float: left;
+}
+.form-group .form-control{
+    float: left;
+    border-radius: 5px;
+    margin: 5px;
+}
+.form-group::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.long-input{
+    width: 40%;
+}
+.normal-input {
+    width: 30%;
+}
+.short-input{
+    width: 20%;
+}
+.error-msg{
+    color: red;
+}
+.success-msg {
+    color: green;
+}
+#list-video {
+    padding: 10px;
+}
+#list-video::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.video {
+    width: 30%;
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+}
